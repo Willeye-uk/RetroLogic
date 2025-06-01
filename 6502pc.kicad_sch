@@ -19429,7 +19429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-15_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 213.36 85.09 0)
 			(effects
 				(font
@@ -19515,7 +19515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-15_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 271.78 86.36 0)
 			(effects
 				(font
@@ -19901,7 +19901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 88.392 167.64 90)
 			(effects
 				(font
@@ -20311,7 +20311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-063_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 171.45 195.58 0)
 			(effects
 				(font
@@ -23223,7 +23223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "1.8432Mhz"
 			(at 306.07 62.2299 90)
 			(effects
 				(font
@@ -23232,7 +23232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC18-U_Horizontal"
+		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
 			(at 302.26 60.96 0)
 			(effects
 				(font
