@@ -1,9 +1,9 @@
-# **6502 SBC - KiCad 8 Files (Ben Eater Inspired)**
+# **6502 SBC - KiCad 8 Files ([Ben Eater](https://eater.net/6502) Inspired)**
 
 
 ---
 
-Welcome to the repository for the **KiCad 8 design files** of a single board computer (SBC) based on the classic **W65C02S microprocessor**. This project draws heavy inspiration from Ben Eater's excellent 6502 computer series, expanding upon it with a range of features for greater versatility and modern connectivity.
+Welcome to the repository for the **KiCad 8 design files** of a single board computer (SBC) based on the classic **W65C02S microprocessor**. This project draws heavy inspiration from [Ben Eater's excellent 6502 computer series](https://eater.net/6502), expanding upon it with a range of features for greater versatility and modern connectivity.
 
 
 ## **Features**
