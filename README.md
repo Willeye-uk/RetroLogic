@@ -30,6 +30,7 @@ This SBC design aims to provide a robust platform for learning and experimenting
     * **Crystal Socket:** Flexible clocking options, allowing for different crystal frequencies.
     * **Switchable Voltage for Add-ons:** Provides configurable power for external modules and expansion boards.
 
+![alt text]([http://url/to/img.png](https://github.com/Willeye-uk/6502SBC/blob/main/png/3d.png))
 
 ## **Getting Started**
 
