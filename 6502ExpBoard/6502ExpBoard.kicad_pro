@@ -489,7 +489,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "6502ExpBoard.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
