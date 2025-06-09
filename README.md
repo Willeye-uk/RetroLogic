@@ -1,4 +1,4 @@
-# **6502 SBC - KiCad 8 Files ([Ben Eater](https://eater.net/6502) Inspired)**
+# **The RetroLogic 6502 SBC - KiCad 8 Files ([Ben Eater](https://eater.net/6502) Inspired)**
 
 
 ---
