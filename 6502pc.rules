@@ -1,0 +1,89 @@
+
+(rules PCB 6502pc.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    VCC GND Reset "Net-(U4-XTAL2)" "Net-(U5-VS-)" "Net-(U5-VS+)" "Net-(U5-C1-)" "Net-(U5-C1+)"
+    "Net-(U5-C2-)" "Net-(U5-C2+)" 3.3v "Net-(D1-K)" IRQ "Net-(D2-K)" "unconnected-(J2-D+-Pad3)" "Net-(J2-VBUS)"
+    "unconnected-(J2-D--Pad2)" "Net-(U4-XTAL1)" PB4 PB7 PB3 PB0 PB1 PB6
+    PB2 PB5 PA1 PA2 PA4 PA5 PA3 PA7
+    PA6 PA0 "Net-(J5-Pin_3)" "Net-(J6-Pin_2)" "Net-(J7-Pin_5)" "Net-(J7-Pin_2)" "Net-(J7-Pin_4)" "Net-(J7-Pin_6)"
+    RW D5 A14 "Net-(D3-A)" A12 D2 "unconnected-(J9-Pin_38-Pad38)" D4
+    "unconnected-(J9-Pin_34-Pad34)" A15 D1 A1 A5 A13 A7 A3
+    D0 A10 A8 D6 D3 clock A6 A11
+    A9 D7 A0 A2 A4 "unconnected-(RV1-Pad3)" "unconnected-(U1-ϕ2-Pad39)" "unconnected-(U1-~{VP}-Pad1)"
+    "unconnected-(U1-ϕ1-Pad3)" "unconnected-(U1-~{SO}-Pad38)" "unconnected-(U1-nc-Pad35)" "unconnected-(U1-SYNC-Pad7)" "unconnected-(U1-~{ML}-Pad5)" !A15 "Net-(U3-~{CS})" "Net-(U4-~{DSR})"
+    RXD "unconnected-(U4-~{DCD}-Pad16)" "unconnected-(U4-RxC-Pad5)" TXD "Net-(U4-~{CS2})" "Net-(U4-~{RTS})" "unconnected-(U5-T2IN-Pad10)" "unconnected-(U5-T2OUT-Pad7)"
+    "unconnected-(U5-R2IN-Pad8)" "unconnected-(U5-R2OUT-Pad9)" "unconnected-(U6-Pad6)" "unconnected-(U6-Pad4)" "unconnected-(U6-Pad5)" "unconnected-(U7-CA2-Pad39)" "unconnected-(U7-CA1-Pad40)" "unconnected-(U7-CB2-Pad19)"
+    "unconnected-(U7-CB1-Pad18)" "unconnected-(X1-NC-Pad1)" "unconnected-(J1-Pad9)" "unconnected-(J1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

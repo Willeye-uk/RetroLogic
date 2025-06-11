@@ -5,6 +5,190 @@
 	(uuid "268e098b-a279-46a3-ad3e-0f1e1957edb7")
 	(paper "A3")
 	(lib_symbols
+		(symbol "2025-06-11_10-50-45:DS1813-10"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DS1813-10"
+				(at 7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "21-0248A_MXM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "DS1813-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DS1813-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "21-0248A_MXM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS1813-10_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 15.24 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "~R~~S~~T~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "6502:W65C02SxP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10508,6 +10692,12 @@
 		(uuid "2af46313-0668-4b27-af6d-498e61eabdb8")
 	)
 	(junction
+		(at 55.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3494088f-3b8d-447d-8bec-bd8bb231a70e")
+	)
+	(junction
 		(at 88.9 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10590,6 +10780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d1a310-775b-4216-877c-c7b9382e70d6")
+	)
+	(junction
+		(at 29.21 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e57b82-6f29-4490-bc91-ce83118f350b")
 	)
 	(junction
 		(at 299.72 171.45)
@@ -10867,6 +11063,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 76.2) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3b1a5f-974a-4870-836e-221b9dbd13cb")
+	)
+	(wire
+		(pts
 			(xy 339.09 67.31) (xy 341.63 67.31)
 		)
 		(stroke
@@ -10894,6 +11100,16 @@
 			(type default)
 		)
 		(uuid "0f8bf9ce-372b-4e5b-8a3e-d11bb3d7acba")
+	)
+	(wire
+		(pts
+			(xy 29.21 73.66) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104ebb22-2fe0-462a-9b7b-13e3fd6fee26")
 	)
 	(wire
 		(pts
@@ -11487,6 +11703,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 86.36) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb8cba8-dbb8-46a6-97d8-2061f1bd775a")
+	)
+	(wire
+		(pts
 			(xy 91.44 143.51) (xy 91.44 148.59)
 		)
 		(stroke
@@ -11927,6 +12153,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 73.66) (xy 29.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693cb943-55a6-49ad-91ed-439407eec7bb")
+	)
+	(wire
+		(pts
 			(xy 284.48 166.37) (xy 284.48 173.99)
 		)
 		(stroke
@@ -11984,6 +12220,16 @@
 			(type default)
 		)
 		(uuid "713e6b4b-d564-4924-9e10-2344dcf4b4b3")
+	)
+	(wire
+		(pts
+			(xy 55.88 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7238dcc6-5b16-43b6-8b96-49d7c6c98e25")
 	)
 	(wire
 		(pts
@@ -13424,6 +13670,16 @@
 			(type default)
 		)
 		(uuid "fcc50a1c-66d1-43a6-984a-a33316568f86")
+	)
+	(wire
+		(pts
+			(xy 29.21 73.66) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd977859-af9e-4a9f-938f-711ae11f86fd")
 	)
 	(wire
 		(pts
@@ -17513,6 +17769,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 26.67 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2acbe7e-84f5-4e1f-a7ef-2121743d49ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.8143 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A3"
 		(shape bidirectional)
 		(at 168.91 86.36 180)
@@ -17548,6 +17826,28 @@
 		(uuid "d6e8d5c8-c0fc-4907-bc3a-4630efd20a14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.7946 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Reset"
+		(shape bidirectional)
+		(at 63.5 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7eae8f9-c7c5-4224-8948-9abc2eb12962")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.7975 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17922,6 +18222,28 @@
 		(uuid "ef4d351a-e5cc-4948-a0df-f8c7c6c2f529")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.7341 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 55.88 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f24fac83-ac40-4b16-b0e4-346252a9c294")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.4938 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18370,7 +18692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x08_Pin"
+		(property "Value" "Port B"
 			(at 383.54 96.5199 0)
 			(effects
 				(font
@@ -18782,7 +19104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+		(property "Footprint" "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 311.15 171.45 0)
 			(effects
 				(font
@@ -19123,7 +19445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 340.0552 74.93 0)
 			(effects
 				(font
@@ -19329,7 +19651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 322.2752 74.93 0)
 			(effects
 				(font
@@ -21052,7 +21374,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x08_Pin"
+		(property "Value" "Port A"
 			(at 382.27 62.2299 0)
 			(effects
 				(font
@@ -21358,7 +21680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x16_Socket"
+		(property "Value" "Display Connector"
 			(at 193.04 210.8199 0)
 			(effects
 				(font
@@ -22636,6 +22958,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 55.88 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03c027f-fca6-419d-8e89-26996ea13832")
+		(property "Reference" "SW3"
+			(at 57.15 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Reset Switch"
+			(at 57.15 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5303c1c1-9558-458d-ab91-073aa1eca4db")
+		)
+		(pin "1"
+			(uuid "d8a9c495-6605-44d7-a9de-f3b67785ca57")
+		)
+		(instances
+			(project "6502pc"
+				(path "/268e098b-a279-46a3-ad3e-0f1e1957edb7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 256.54 140.97 0)
 		(unit 1)
@@ -23091,6 +23483,79 @@
 			(project "6502pc"
 				(path "/268e098b-a279-46a3-ad3e-0f1e1957edb7"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-06-11_10-50-45:DS1813-10")
+		(at 35.56 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0040e5-cc49-4cd6-89ac-550058f3e4f9")
+		(property "Reference" "U9"
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DS1813-10"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "21-0248A_MXM"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DS1813-10"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcdc00d6-4329-4cad-a733-909888f44c33")
+		)
+		(pin "3"
+			(uuid "eaa1bc04-5da2-460d-963b-8e0d9e888d80")
+		)
+		(pin "1"
+			(uuid "7f3f76b5-7a47-4de7-be2e-19efdd494a48")
+		)
+		(instances
+			(project ""
+				(path "/268e098b-a279-46a3-ad3e-0f1e1957edb7"
+					(reference "U9")
 					(unit 1)
 				)
 			)
