@@ -1,6 +1,6 @@
 # **The RetroLogic 6502 SBC - KiCad 9 Files ([Ben Eater](https://eater.net/6502) Inspired)**
 
-![3D Image](png/output.jpg)
+![3D Image](png/logo.png)
 ---
 
 Welcome to the repository for the **KiCad 9 design files** of a single board computer (SBC) based on the classic **W65C02S microprocessor**. This project draws heavy inspiration from [Ben Eater's excellent 6502 computer series](https://eater.net/6502), expanding upon it with a range of features for greater versatility and modern connectivity.
@@ -30,12 +30,12 @@ This SBC design aims to provide a robust platform for learning and experimenting
     * **Crystal Socket:** Flexible clocking options, allowing for different crystal frequencies.
     * **Switchable Voltage for Add-ons:** Provides configurable power for external modules and expansion boards.
     * **Expansion Port:** Example diagnostic board included.
-    ![3D Image]([https://github.com/Willeye-uk/6502SBC/blob/main/png/Diag_Board.png])
+    ![3D Image](png/Diag_Board.png)
     * **Sound Card:** Expansion sound card and demo program.
-    ![3D Image]([https://github.com/Willeye-uk/6502SBC/blob/main/png/SoundCard.png])
+    ![3D Image](png/SoundCard.png)
 
 
-![3D Image]([https://github.com/Willeye-uk/6502SBC/blob/main/png/6502pc.png])
+![3D Image](png/6502pc.png)
 
 ## **Getting Started**
 
@@ -43,14 +43,14 @@ To explore or modify this design, you'll need **KiCad 9**.
 
 **Clone this repository: \
 ** Bash \
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Willeye-uk/6502SBC.git
 
 
 
 1. 
-2. **Open the project in KiCad 8:** Navigate to the cloned directory and open the `.kicad_pro` file.
+2. **Open the project in KiCad 9:** Navigate to the cloned directory and open the `.kicad_pro` file.
 
-From there, you can view the schematics, examine the PCB layout, and generate manufacturing files if you wish to build your own board.
+From there, you can view the schematics, examine the PCB layout, and generate manufacturing files if you wish to build your own board. Or use the ones provided in Gerber Files dir.
 
 
 ## **Contributing**
