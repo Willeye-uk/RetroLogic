@@ -1,9 +1,9 @@
-# **The RetroLogic 6502 SBC - KiCad 8 Files ([Ben Eater](https://eater.net/6502) Inspired)**
+# **The RetroLogic 6502 SBC - KiCad 9 Files ([Ben Eater](https://eater.net/6502) Inspired)**
 
-
+![3D Image]([https://raw.githubusercontent.com/Willeye-uk/6502SBC/refs/heads/main/png/logo.png])
 ---
 
-Welcome to the repository for the **KiCad 8 design files** of a single board computer (SBC) based on the classic **W65C02S microprocessor**. This project draws heavy inspiration from [Ben Eater's excellent 6502 computer series](https://eater.net/6502), expanding upon it with a range of features for greater versatility and modern connectivity.
+Welcome to the repository for the **KiCad 9 design files** of a single board computer (SBC) based on the classic **W65C02S microprocessor**. This project draws heavy inspiration from [Ben Eater's excellent 6502 computer series](https://eater.net/6502), expanding upon it with a range of features for greater versatility and modern connectivity.
 
 
 ## **Features**
@@ -30,13 +30,16 @@ This SBC design aims to provide a robust platform for learning and experimenting
     * **Crystal Socket:** Flexible clocking options, allowing for different crystal frequencies.
     * **Switchable Voltage for Add-ons:** Provides configurable power for external modules and expansion boards.
     * **Expansion Port:** Example diagnostic board included.
+    ![3D Image]([https://raw.githubusercontent.com/Willeye-uk/6502SBC/refs/heads/main/png/diag_board.png])
+    * **Sound Card:** Expansion sound card and demo program.
+    ![3D Image]([https://raw.githubusercontent.com/Willeye-uk/6502SBC/refs/heads/main/png/soundcard.png])
 
 
-![3D Image]([https://raw.githubusercontent.com/Willeye-uk/6502SBC/refs/heads/main/png/3d.png))
+![3D Image]([https://raw.githubusercontent.com/Willeye-uk/6502SBC/refs/heads/main/png/6502pc.png])
 
 ## **Getting Started**
 
-To explore or modify this design, you'll need **KiCad 8**.
+To explore or modify this design, you'll need **KiCad 9**.
 
 **Clone this repository: \
 ** Bash \
