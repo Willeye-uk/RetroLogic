@@ -11404,6 +11404,19 @@
 		(layer "Edge.Cuts")
 		(uuid "e2a3c593-0a4a-441c-802f-608dc18ea6a1")
 	)
+	(gr_text "RETROLOGIC\nBY TOM SMITH v1\nDIAGBOARD"
+		(at 86.973 42.8398 90)
+		(layer "F.SilkS")
+		(uuid "e3ed78e9-abc2-4f60-9be5-65a231e7d5b0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(segment
 		(start 123.66 73.835)
 		(end 126.45 76.625)
