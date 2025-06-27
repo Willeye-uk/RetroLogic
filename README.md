@@ -33,6 +33,7 @@ This SBC design aims to provide a robust platform for learning and experimenting
     ![3D Image](png/Diag_Board.png)
     * **Sound Card:** Expansion sound card and demo program.
     ![3D Image](png/SoundCard.png)
+    * **Terminal Card:** Expansion VGA terminal based on https://geoffg.net/terminal.html
 
 
 ![3D Image](png/6502pc.png)
@@ -43,7 +44,7 @@ To explore or modify this design, you'll need **KiCad 9**.
 
 **Clone this repository: \
 ** Bash \
-git clone https://github.com/Willeye-uk/6502SBC.git
+git clone https://github.com/Willeye-uk/RetroLogic.git
 
 
 
