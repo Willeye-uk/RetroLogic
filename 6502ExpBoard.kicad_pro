@@ -487,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber Files/",
       "pos_files": "",
       "specctra_dsn": "6502ExpBoard.dsn",
       "step": "",
